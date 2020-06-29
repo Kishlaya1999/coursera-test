@@ -1,0 +1,131 @@
+*{
+  box-sizing: border-box;
+} 
+
+#header-nav {
+    background-color: #c98715;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fce29e;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color: #000000;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #fe9797;
+}
+
+#nav-list {
+    background-color: #9E9E9E;
+}
+
+#nav-list a {
+    /*text-align: center;*/
+    font-weight: bolder;
+    color: #282828;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #7d1913;
+}
+
+
+body{
+  background-color: ;
+}
+
+h1{
+  font-family: 'Bree Serif', serif;
+  font-style: bold;
+  font-size: 3em;
+  margin-left: 20px;
+}
+
+#chicken,#beef,#sushi{
+  border: 2px solid black;
+  margin: 10px;
+  padding: 20px;
+  background-color: #80808085;
+  box-shadow: 3px 5px 20px 0px black;
+  font-size: 1.1em;
+}
+
+#chicken > h2{
+  background-color: aqua;
+}
+
+#beef > h2{
+  background-color: red;
+}
+
+#sushi > h2{
+  background-color: yellow;
+}
+
+/* header */
+
+#header-nav{
+  background-color: #9E9E9E; 
+}
+
+/*header.navbar{
+  background-color: #9E9E9E;
+}*/
+
+body>h2{
+  font-family: 'Bree Serif', serif;
+  font-size: 2.4em;
+}
+
+div > h2{
+  border-bottom: 2px solid black;
+  font-family: 'Merriweather', serif;
+  margin-top: -19px;
+  margin-left: -19px;
+  margin-right: -19px;
+  font-size: 1.5em;
+  height: 47px;
+  padding-top: 8px;
+}
+
+p{
+  font-family: "Sans-serif";
+  font-style: bold; 
+}
+
+@media (max-width: 575px) {
+  hr{
+  border: 1px solid black;
+  width: 80%;
+  }
+}
+
